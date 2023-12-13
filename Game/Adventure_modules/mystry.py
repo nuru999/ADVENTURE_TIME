@@ -16,7 +16,7 @@ class Attacker:
     def __init__(self, name, damage_power):
         self.name = name
         self.damage_power = damage_power
-
+ 
 def choose_avatar(avatars):
     print("Choose your avatar:")
     for i, avatar in enumerate(avatars, start=1):
