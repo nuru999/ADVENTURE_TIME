@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "game",
+            "database": "${workspaceFolder:ADVENTURE_TIME}/user_game_database.db"
+        }
+    ]
+}
