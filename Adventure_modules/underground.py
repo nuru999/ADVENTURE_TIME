@@ -7,19 +7,19 @@ class UndergroundCavernsGame:
     
     def encounter_creatures(self):
         creatures = ["Glowing Worms", "Shadow Bats", "Crystal Spiders"]
-        print("You encounter different subterranean creatures.")
+        print("\nYou encounter different subterranean creatures.")
     
         for idx, creature in enumerate(creatures, start=1):
             print(f"{idx}. Approach the {creature}")
 
-        choice = input("Choose a creature to approach (1, 2, or 3): ")
+        choice = input("\nChoose a creature to approach (1, 2, or 3): ")
 
         if choice.isdigit() and 1 <= int(choice) <= len(creatures):
             selected_creature = creatures[int(choice) - 1]
             print(f"You approach the {selected_creature}.")
 
         if selected_creature == "Glowing Worms":
-            print("The Glowing Worms emit a soft light, revealing a hidden pathway.")
+            print("\nThe Glowing Worms emit a soft light, revealing a hidden pathway.")
             print("You continue your journey with newfound illumination.")
         elif selected_creature == "Shadow Bats":
             print("The Shadow Bats guide you through a secret tunnel.")
@@ -31,13 +31,13 @@ class UndergroundCavernsGame:
             print("Invalid choice! The creatures become agitated.")
             print("Game over.")
     def play(self):
-        print("### Underground Caverns Adventure ###")
+        print("\n             Underground Caverns Adventure ###")
         print("A vast network of dark and winding caverns beneath the earth's surface, illuminated only by the glow of bioluminescent fungi.")
         print("Adventure: Search for a lost civilization's underground city. Encounter subterranean creatures, solve riddles to open pathways, and discover the secrets of the hidden city.")
-        print("You are now in the underground caverns...\n")
+        print("\nYou are now in the underground caverns...\n")
 
         self.encounter_creatures()
-        print("You continue your journey through the underground caverns.")
+        print("\nYou continue your journey through the underground caverns.")
         print("Solve the riddle to gain access to the passage...")
         answer = input("What has cities, but no houses; forests, but no trees; and rivers, but no water? ")
         
