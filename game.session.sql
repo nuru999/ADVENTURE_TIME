@@ -1,3 +1,3 @@
 
 
-SELECT * FROM UserGameProgress
+SELECT * FROM Game
