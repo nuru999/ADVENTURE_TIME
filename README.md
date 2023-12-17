@@ -22,7 +22,8 @@ Welcome to the CLI Adventure Game! This concise README file provides essential i
     `pipenv install ` 
     `pipenv shell`
    `pip install sqalchemy`
-  
+   `pip install click`
+   `pip install coloroma`
     
 4.  **Run the Game:**
     
